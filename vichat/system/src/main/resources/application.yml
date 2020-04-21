@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  application:
+    name: vichat
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    timezone: GMT+8
+    serialization:
+#       dont use timestamps
+      write-dates-as-timestamps: true
+    deserialization:
+      adjust-dates-to-context-time-zone: true
+  session:
+    store-type: redis
+logging:
+  config: classpath:logback.xml

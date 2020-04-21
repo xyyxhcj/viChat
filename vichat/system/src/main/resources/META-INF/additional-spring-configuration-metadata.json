@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "system.properties.profileActive",
+      "type": "java.lang.String",
+      "description": "profiles active."
+    },
+    {
+      "name": "system.properties.nettyPort",
+      "type": "java.lang.Integer",
+      "description": "netty use Port."
+    }
+  ]
+}
